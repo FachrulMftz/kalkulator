@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(10deg, #0a793c,#088680);
+}
+.kalkulator{
+    border: 1px solid #dadada;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.9);
+
+}
+.tulisan{
+    font-weight: 800;
+    color: #dadada;
+    font-size: larger;
+}
+input {
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: #0a0a0a; /* ganti jadi biru */
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -1px -1px 5px rgb(0, 0, 0) ;
+    cursor: pointer;
+}
+.sama{
+    background-color: #fb7c14;
+}
+.tombol{
+    color: #6dee0a;
+}
+.kurang{
+
+}
